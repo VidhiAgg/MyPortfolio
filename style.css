@@ -3,14 +3,19 @@
     --h1-font-size: 3rem;
     --h2-font-size: 2rem;
     --heavy-font-weigth: 700;
-    --body-font-weight: 400 --header-hiegth:
+    --body-font-weight: 400;
+  
 }
 
 :root {
     --dark-color: #0c4a6e;
-    --light-color: #ecfeff;
     --dark-gray: #6b7280;
-    --off-white: #e2e8f0
+    --off-white: #e2e8f0;
+}
+
+hr{
+    margin: 1rem 0rem;
+    border-style: hidden;
 }
 
 .bd-grid {
@@ -20,18 +25,14 @@
 
 body {
     margin: 0;
-    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1rem;
     font-weight: var(--body-font-weight);
     line-height: 1.5;
     color: #000;
     background-color: #fff;
 }
-.container-center {
-    max-width: 600px;
-    margin: auto;
-    /** will make it center**/
-}
+
 .heading-main {
     display: block;
     font-family: inherit;
@@ -95,13 +96,14 @@ body {
     padding-top: 3rem;
     margin-top: 2rem;
     margin-right: auto;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
     font-size: var(--heavy-font-size);
     font-family: poppins;
     font-weight: var(--heavy-font-weigth);
     color: var(--dark-gray);
     text-align: left;
-    margin-left: 4rem;
-    margin-bottom: 2rem;
+    
 
 }
 
@@ -111,20 +113,21 @@ body {
 
 header .header-image {
     float: right;
-    margin-right: 7rem;
-    padding-right: 6rem;
-    width: 600px;
+    width: 497px;
     margin: auto;
-  padding-top: 3rem;
-  margin-top: 2rem;
+    padding-top: 3rem;
+    margin-top: 2rem;
+    padding-right: 16rem;
 
 }
 .section{
     text-align: left;
     padding : 2rem; 
+    padding-bottom: 0rem;
 }
 .section-about {
- background-color: var(--off-white);
+    padding-top: 1rem;
+    margin-top: 1rem;
 }
 .button{
     background-color: var(--dark-color);
@@ -155,4 +158,51 @@ header .header-image {
     margin-left: 2rem;
     margin: 2rem;
     
+}
+.section-title{
+    font-family: var(--font-family);
+    font-weight:bolder;
+    font-size: var(--heavy-font-size);
+    color: var(--dark-color);
+    text-align: left;
+    padding: 1rem;
+    padding-top: 3rem;
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+}
+.border-bottom{
+    border-bottom-width: 2px;
+    border-color: var(--off-white);
+    border-bottom-style:ridge;
+}
+.sub-heading{
+    font-size: var(--h1-font-size);
+    margin-left: 2rem;
+}
+.p-content{
+    font-size: 1.5rem;
+    text-align: justify;
+    max-width: 46%;
+    margin: auto;
+    /* padding-left: 7rem; */
+    display: flex;
+    white-space: inherit;
+}
+.container-center {
+    /* max-width: 600px; */
+    /* margin: auto; */
+    /** will make it center**/
+    text-align: center;
+}
+
+
+.about-img{
+    float: left;
+    padding-left: 6rem;
+    margin-top: 2rem;
+    margin-right: 7rem;
+    margin-left: 7rem;
+    margin-bottom: 2rem;
 }
