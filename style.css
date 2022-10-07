@@ -206,3 +206,10 @@ header .header-image {
     margin-left: 7rem;
     margin-bottom: 2rem;
 }
+
+.underline{
+   color: var(--dark-color);
+    display: contents;
+    font-weight: 700;
+    
+}
