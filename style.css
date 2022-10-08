@@ -251,12 +251,22 @@ margin-left: 1rem;
 padding: auto;
 }
 
-@media screen and (min-width: 1024px){
-    .section-about{
+@media screen and (max-width: 480px){
+ .container-center,   .section-about{
       margin-left: auto;
       margin-right: auto;
     }
     .about-img{
-      right: 10%;
+      margin-left: -1rem;
+    }
+   .sub-heading{
+        padding-right: 1rem;
+        padding-left: 0rem;
+        margin-left: 3rem;
+        font-size: 27px;
+    }
+    .p-content{
+        margin-left: 2rem;
+        margin-right: -5rem;
     }
   }
