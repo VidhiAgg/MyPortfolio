@@ -6,6 +6,14 @@
     --body-font-weight: 400;
   
 }
+@media screen and (max-width: 750px){
+    :root{
+    --heavy-font-size: 3rem;
+    --h1-font-size: 2rem;
+    --h2-font-size: 1rem;
+  
+    }
+}
 
 :root {
     --dark-color: #0c4a6e;
@@ -14,7 +22,7 @@
 }
 
 hr{
-    margin: 1rem 0rem;
+    margin: 0rem 0rem;
     border-style: hidden;
 }
 
@@ -154,9 +162,8 @@ header .header-image {
     padding: 2rem;
     list-style: none;
     text-align: left;
-    margin-right: 2rem;
-    margin-left: 2rem;
-    margin: 2rem;
+    
+    margin: 2rem 2rem 0rem 2rem;
     
 }
 .section-title{
@@ -166,7 +173,7 @@ header .header-image {
     color: var(--dark-color);
     text-align: left;
     padding: 1rem;
-    padding-top: 3rem;
+    
     margin-top: 2rem;
     margin-right: auto;
     margin-left: 4rem;
@@ -251,40 +258,42 @@ margin-left: 1rem;
 padding: auto;
 }
 
-@media screen and (max-width: 1024px){
- .container-center,   .section-about{
+/* @media screen and (max-width: 480px){
+    .section-about{
       margin-left: auto;
       margin-right: auto;
     }
     .about-img{
-      margin-left: -1rem;
-    }
-   .sub-heading{
-        padding-right: 1rem;
-        padding-left: 0rem;
-        margin-left: 3rem;
-        font-size: 27px;
+      right: 10%;
     }
     .p-content{
-        margin-left: 2rem;
-        margin-right: -5rem;
-    }
-  }
-  /* @media screen and (max-width: 1024px){
-    .container-center,   .section-about{
-         margin-left: auto;
-         margin-right: auto;
-       }
-       .about-img{
-         margin-left: -1rem;
-       }
-      .sub-heading{
-        width: 100%;
         margin: auto;
-     padding: auto;  
-       }
-       .p-content{
-           width: 100%;
-           margin: auto;
-        padding: auto;       }} */
-     
+    } */
+
+
+    @media screen and (max-width: 750px){
+        .section{
+            margin: auto;
+        }
+        .header .home-title{
+            font-size: var(--heavy-font-size);
+        }
+        .header .header-image{
+            margin-left: 3rem;
+           }
+           .about-img{
+            margin-left: 8rem;
+           }
+          .sub-heading{
+            padding-right: 1rem;
+            padding-left: 0rem;
+            margin-left: 9rem;
+            font-size: 35px;
+            margin-bottom: 1.2rem;;
+           }
+           .p-content{
+            padding-left: 6rem;
+            margin: auto;
+            margin-bottom: 1.2rem;
+           }
+        }
