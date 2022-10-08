@@ -297,3 +297,34 @@ padding: auto;
             margin-bottom: 1.2rem;
            }
         }
+
+        @media screen and (max-width: 400px){
+            .section{
+                margin: auto;
+            }
+            .header .home-title{
+                font-size: 2rem;
+            }
+            .header .header-image{
+                margin-left: 3rem;
+               }
+               .about-img{
+                margin-left: 1rem;
+               }
+              .sub-heading{
+                padding-right: 0rem;
+                padding-left: 1rem;
+                margin-left: 1rem;
+                font-size: 31px;
+                margin-bottom: 1.2rem;
+                margin-right: -5rem;
+               }
+               .p-content{
+                margin-left: 1rem;
+                margin-right: -7rem;
+                padding-left: 2rem;
+              justify-content: space-evenly;
+                margin-bottom: 1.2rem;
+                padding-right: 0rem;
+               }
+            }
