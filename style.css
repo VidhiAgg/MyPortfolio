@@ -271,7 +271,7 @@ padding: auto;
     } */
 
 
-    @media screen and (max-width: 750px){
+    @media screen and (max-width: 800px){
         .section{
             margin: auto;
         }
@@ -309,7 +309,7 @@ padding: auto;
                 margin-left: 3rem;
                }
                .about-img{
-                margin-left: 1rem;
+                margin-left: 7rem;
                }
               .sub-heading{
                 padding-right: 0rem;
