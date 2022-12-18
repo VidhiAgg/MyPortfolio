@@ -87,3 +87,6 @@ max-width: var(--max-width);
 margin: auto;
 width: 90%;
 } 
+.link-secondary{
+    border-radius: 1rem;
+}
