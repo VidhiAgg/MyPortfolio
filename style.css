@@ -59,6 +59,7 @@ body {
     display: inline;
     padding: 0.5rem;
 }
+
 .link {
     text-decoration: none;
     color: white;
@@ -74,7 +75,8 @@ body {
     position: fixed;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    top: 0;left: 0;
+    top: 0;
+    left: 0;
     height: 6.1rem;
     padding-inline-start: 0px;
     font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -380,19 +382,18 @@ h4 {
 
 .footer {
     background-color: var(--dark-gray);
-    padding: 1rem;
-    text-align: center;
     color: white;
     width: 100%;
-    height: 5rem;
-
+    padding: 1rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    margin-block: -1rem;
-    bottom: 0rem;
-
-
-
+    bottom: 0;
+    left: 0;
+    height: 4rem;
+    padding-inline: 0px;
+    margin-block: 0px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+     bottom:0;
 }
 
 .footer .link {
@@ -419,4 +420,3 @@ h4 {
     margin-right: 2rem;
     margin-left: 2rem;
 }
-
