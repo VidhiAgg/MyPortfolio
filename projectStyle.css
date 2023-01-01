@@ -4,7 +4,7 @@
     --gray-light-shade: #d5d5dbd6;
     --off-white: #e2e8f0;
     --max-width: 900px;
-    --highled-dark-gray : #555a63;
+    --highled-dark-gray: #555a63;
 }
 
 body {
@@ -12,9 +12,11 @@ body {
     margin: 0rem;
 
 }
-main{
+
+main {
     margin-top: 7rem;
 }
+
 .list-non-bullet {
     list-style: none;
     padding-inline-start: 0px;
@@ -97,9 +99,33 @@ main{
 }
 
 @media (max-width: 900px) {
+    .navigation-container .nav-brand {
+        font-weight: 500;
+        font-size: 1.6rem;
+        margin-top: 0.6rem;
+        margin-left: 2.5rem;
+    }
+    
+    .navigation-container .nav-pills {
+        text-align: right;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+        padding-inline-start: 0px;
+        margin-block-start: 0.8em;
+        margin-block-end: 0em;
+    
+    }
+    
+    .link {
+        text-decoration: none;
+        color: white;
+        font-size: 0.9rem;
+        padding: 0rem;
+    }
     .container-center {
         width: auto;
     }
+
 }
 
 .container-center {
@@ -168,13 +194,12 @@ h1 {
     padding: 1rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    bottom: 0;
     left: 0;
     height: 5rem;
     padding-inline: 0px;
-        margin-block: 0px;
+    margin-block: 0px;
     font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-   bottom:0;
+    bottom: 0;
 
 
 }
@@ -227,33 +252,37 @@ h1 {
     margin-block-start: 0em;
 }
 
-.work h1{
+.work h1 {
     text-align: left;
     font-weight: bolder;
     padding-left: 0.8rem;
 }
+
 .work .visit-link {
     text-decoration: none;
     color: var(--dark-gray);
     height: 1rem;
 }
-.work h3{
+
+.work h3 {
     text-align: left;
     font-size: inherit;
     margin-top: 0.3rem;
     margin-block-start: 0em;
     margin-block-end: 0em;
     padding-left: 0.8rem;
-    
+
 
 }
-.work .work-list{
+
+.work .work-list {
     padding: 1.5rem;
     margin: -1rem auto;
     border-radius: 1rem;
     text-align: center;
 }
-.work h5{
+
+.work h5 {
     text-align: left;
     font-size: 0.9rem;
     margin-block-start: 0.5em;
@@ -262,14 +291,16 @@ h1 {
     font-weight: 700;
 
 }
-.work p{
+
+.work p {
     padding: 1rem;
-    margin: 1rem ;
+    margin: 1rem;
     text-align: left;
 }
-.work .content-list{
-padding: 0.8rem;
-text-align: left; 
-word-spacing: 0.2rem;
+
+.work .content-list {
+    padding: 0.8rem;
+    text-align: left;
+    word-spacing: 0.2rem;
 
 }

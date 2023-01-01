@@ -387,13 +387,12 @@ h4 {
     padding: 1rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    bottom: 0;
     left: 0;
-    height: 4rem;
+    height: 5rem;
     padding-inline: 0px;
     margin-block: 0px;
     font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-     bottom:0;
+    bottom: 0;
 }
 
 .footer .link {
@@ -414,9 +413,8 @@ h4 {
 }
 
 .footer-social-list {
-
     list-style: none;
     text-align: center;
-    margin-right: 2rem;
-    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
