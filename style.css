@@ -390,7 +390,7 @@ h4 {
     left: 0;
     height: 5rem;
     padding-inline: 0px;
-    margin-block: 0px;
+    margin-block: -114px;
     font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
     bottom: 0;
 }
@@ -417,4 +417,17 @@ h4 {
     text-align: center;
     margin-right: 1rem;
     margin-left: 1rem;
+}
+
+@media (max-width: 900px) {
+    header .header-image {  
+        width: 250px;
+        margin: auto;
+        padding-top: 3rem;
+        margin-top: 2rem;
+    
+    }
+    .footer{
+        width: 147%;
+    }
 }
