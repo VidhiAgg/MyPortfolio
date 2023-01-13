@@ -459,14 +459,16 @@ h4 {
     .container-center {
         width: auto;
     }
-    header .header-image {  
+
+    header .header-image {
         width: 250px;
         margin: auto;
         padding-top: 3rem;
         margin-top: 2rem;
-    
+
     }
-    .footer{
+
+    .footer {
         width: 147%;
     }
 }

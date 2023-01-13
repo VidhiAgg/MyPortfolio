@@ -317,3 +317,63 @@ h1 {
     word-spacing: 0.2rem;
 
 }
+
+
+/* -----blog */
+
+#main-blog-heading {
+    color: var(--dark-gray);
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    padding-top: 0.5rem;
+    margin-block-start: 0em;
+}
+
+#blog .blog-sub-heading {
+    color: var(--highled-dark-gray);
+}
+
+#blog .project-list {
+    padding: 1.5rem;
+    margin: 1.5rem auto;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+#blog .container-center {
+    max-width: 700px;
+    margin: auto;
+    width: 70%;
+}
+
+/* ---dummy blog css */
+#dummy-blog #main-blog-heading {
+    text-align: left;
+    margin: auto 5rem;
+}
+
+.blog-container {
+    margin: auto 5rem;
+    max-width: 900px;
+    text-align: justify;
+    padding: 1rem;
+}
+
+
+@media (max-width: 900px) {
+    #dummy-blog #main-blog-heading {
+        text-align: left;
+        margin: auto 1rem;
+    }
+
+    .blog-container {
+        margin: auto;
+        max-width: 500px;
+        text-align: justify;
+        padding: 1rem;
+    }
+
+
+}
