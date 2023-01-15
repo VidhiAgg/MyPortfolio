@@ -151,8 +151,13 @@ main {
     padding: 0rem 1rem
 }
 
+.projects-list
+{
+   list-style: none;
+}
 
 .project-list {
+    text-decoration: none;
     padding: 2rem;
     margin: 3rem auto;
     border-radius: 1rem;
